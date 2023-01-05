@@ -1,11 +1,15 @@
 package com.example.rabbitmqtest;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Getter
+@AllArgsConstructor
+@NoArgsConstructor
 public class SampleMessage {
 
   private String name;
